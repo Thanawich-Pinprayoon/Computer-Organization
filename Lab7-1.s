@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .data
     .balign 4
     A: .word 0
@@ -109,7 +108,6 @@ addr_output: .word output
 addr_lr_bu: .word lr_bu
 
 .global printf
-=======
 .data
     .balign 4
     A: .word 0
@@ -220,5 +218,4 @@ addr_output: .word output
 addr_lr_bu: .word lr_bu
 
 .global printf
->>>>>>> Stashed changes
 .global scanf

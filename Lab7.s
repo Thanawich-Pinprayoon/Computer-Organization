@@ -52,6 +52,12 @@ GCD_vals:
 
     @R6 = A , R7 = B , GCD => R8
     @find min,max
+    MOV R8, #0 @ set ans to zero
+    CMP R6, #0 @ if A == 0
+    BEQ found @ found => BXLR
+    CMP R7, #0 @ if B == 0
+    BEQ found @ found => BXLR
+
     CMP R6,R7
     BLT swap
     B find
