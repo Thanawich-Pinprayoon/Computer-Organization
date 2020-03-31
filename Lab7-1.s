@@ -153,9 +153,6 @@ mod_vals:
         @ LDR lr, addr_lr_bu
         @ LDR lr,[lr]
         BX LR
-
-
-
     .global main
     .func main
 main:
