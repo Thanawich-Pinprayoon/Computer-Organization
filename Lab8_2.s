@@ -6,4 +6,3 @@ end:
     MOV R7, #1 
     SWI 0
 
-@test
