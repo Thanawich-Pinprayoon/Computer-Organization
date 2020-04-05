@@ -205,6 +205,7 @@ main:
     BX lr
 
 
+
 addr_A: .word A
 addr_B: .word B
 addr_get_A: .word get_A
