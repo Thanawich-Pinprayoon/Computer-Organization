@@ -14,7 +14,6 @@ OUTPUT = 1 @constant
     .extern delay
     .extern digitalWrite
     .extern pinMode
-
 main:
     PUSH {ip, lr}
     LDR R0, =intro
