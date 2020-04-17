@@ -27,7 +27,6 @@
     @lr_bu_2: .word 0
 
 .text
-    
     GCD_vals:
         @R1 => A   ,   R2 => B
         CMP R1,#0 @if A ==0
