@@ -25,7 +25,6 @@
 
     @.balign 4
     @lr_bu_2: .word 0
-
 .text
     GCD_vals:
         @R1 => A   ,   R2 => B
